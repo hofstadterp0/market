@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-10-17 15:35">
+  <shop>
+    <name>Demo Electro Store</name>
+    <company>LLC Demo Electronics</company>
+    <url>https://demo-electro.example.com</url>
+
+    <currencies>
+      <currency id="RUB" rate="1"/>
+      <currency id="USD" rate="95"/>
+      <currency id="EUR" rate="100"/>
+    </currencies>
+
+    <categories>
+      <category id="100">Смартфоны</category>
+      <category id="110" parentId="100">Смартфоны — аксессуары</category>
+      <category id="120">Наушники</category>
+      <category id="130">Смарт‑часы</category>
+      <category id="140">Ноутбуки</category>
+      <category id="150">Телевизоры</category>
+      <category id="160">Зарядные устройства и кабели</category>
+      <category id="170">Энергия и питание</category>
+    </categories>
+
+    <offers>
+
+      <!-- Smartphones: product group 'neoX' with two SKUs -->
+      <offer id="neoX_128_black" group_id="neoX" available="true">
+        <name>NeoPhone X 6.1&quot; 128GB Black</name>
+        <vendor>NeoTech</vendor>
+        <url>https://demo-electro.example.com/p/neophone-x</url>
+        <price>49990</price>
+        <oldprice>52990</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>100</categoryId>
+        <picture>https://images.example.com/neox_128_black.jpg</picture>
+        <barcode>2000000000011</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Цвет">Черный</param>
+        <param name="Память">128</param>
+        <param name="ОЗУ">6</param>
+        <param name="ОС">Android</param>
+        <param name="Диагональ">6.1</param>
+        <weight>165</weight>
+        <dimensions>146.5/71.2/7.8</dimensions>
+      </offer>
+
+      <offer id="neoX_256_blue" group_id="neoX" available="true">
+        <name>NeoPhone X 6.1&quot; 256GB Blue</name>
+        <vendor>NeoTech</vendor>
+        <url>https://demo-electro.example.com/p/neophone-x</url>
+        <price>54990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>100</categoryId>
+        <picture>https://images.example.com/neox_256_blue.jpg</picture>
+        <barcode>2000000000012</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Цвет">Синий</param>
+        <param name="Память">256</param>
+        <param name="ОЗУ">8</param>
+        <param name="ОС">Android</param>
+        <param name="Диагональ">6.1</param>
+        <weight>165</weight>
+        <dimensions>146.5/71.2/7.8</dimensions>
+      </offer>
+
+      <!-- Smartphones: product group 'auroraS' with two SKUs -->
+      <offer id="auroraS_128_white" group_id="auroraS" available="true">
+        <name>Aurora S 6.5&quot; 128GB White</name>
+        <vendor>Aurora</vendor>
+        <url>https://demo-electro.example.com/p/aurora-s</url>
+        <price>38990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>100</categoryId>
+        <picture>https://images.example.com/auroras_128_white.jpg</picture>
+        <barcode>2000000000021</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Цвет">Белый</param>
+        <param name="Память">128</param>
+        <param name="ОЗУ">6</param>
+        <param name="ОС">Android</param>
+        <param name="Диагональ">6.5</param>
+        <weight>175</weight>
+        <dimensions>160.2/74.1/7.9</dimensions>
+      </offer>
+
+      <offer id="auroraS_256_green" group_id="auroraS" available="false">
+        <name>Aurora S 6.5&quot; 256GB Green</name>
+        <vendor>Aurora</vendor>
+        <url>https://demo-electro.example.com/p/aurora-s</url>
+        <price>42990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>100</categoryId>
+        <picture>https://images.example.com/auroras_256_green.jpg</picture>
+        <barcode>2000000000022</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Цвет">Зеленый</param>
+        <param name="Память">256</param>
+        <param name="ОЗУ">8</param>
+        <param name="ОС">Android</param>
+        <param name="Диагональ">6.5</param>
+        <weight>175</weight>
+        <dimensions>160.2/74.1/7.9</dimensions>
+      </offer>
+
+      <!-- Headphones: product group 'aeroPods' with two SKUs (color) -->
+      <offer id="aeroPods_white" group_id="aeroPods" available="true">
+        <name>AeroPods TWS White</name>
+        <vendor>Soundium</vendor>
+        <url>https://demo-electro.example.com/p/aeropods</url>
+        <price>6990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://images.example.com/aeropods_white.jpg</picture>
+        <barcode>2000000000031</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Цвет">Белый</param>
+        <param name="Шумоподавление">Активное</param>
+        <param name="Тип">TWS</param>
+        <weight>48</weight>
+      </offer>
+
+      <offer id="aeroPods_black" group_id="aeroPods" available="true">
+        <name>AeroPods TWS Black</name>
+        <vendor>Soundium</vendor>
+        <url>https://demo-electro.example.com/p/aeropods</url>
+        <price>6990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://images.example.com/aeropods_black.jpg</picture>
+        <barcode>2000000000032</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Цвет">Черный</param>
+        <param name="Шумоподавление">Активное</param>
+        <param name="Тип">TWS</param>
+        <weight>48</weight>
+      </offer>
+
+      <!-- Smartwatch: product group 'pulsePro' with two sizes -->
+      <offer id="pulsePro_41" group_id="pulsePro" available="true">
+        <name>Pulse Pro 41mm</name>
+        <vendor>Pulse</vendor>
+        <url>https://demo-electro.example.com/p/pulse-pro</url>
+        <price>15990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>130</categoryId>
+        <picture>https://images.example.com/pulsepro_41.jpg</picture>
+        <barcode>2000000000041</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Размер">41</param>
+        <param name="Материал корпуса">Алюминий</param>
+        <param name="GPS">Да</param>
+        <weight>38</weight>
+      </offer>
+
+      <offer id="pulsePro_45" group_id="pulsePro" available="true">
+        <name>Pulse Pro 45mm</name>
+        <vendor>Pulse</vendor>
+        <url>https://demo-electro.example.com/p/pulse-pro</url>
+        <price>17990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>130</categoryId>
+        <picture>https://images.example.com/pulsepro_45.jpg</picture>
+        <barcode>2000000000042</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Размер">45</param>
+        <param name="Материал корпуса">Алюминий</param>
+        <param name="GPS">Да</param>
+        <weight>40</weight>
+      </offer>
+
+      <!-- Laptop: product group 'ultraBook14' with RAM variants -->
+      <offer id="ultrabook14_8gb" group_id="ultraBook14" available="true">
+        <name>UltraBook 14&quot; i5 8GB/512GB</name>
+        <vendor>Skyline</vendor>
+        <url>https://demo-electro.example.com/p/ultrabook-14</url>
+        <price>69990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>140</categoryId>
+        <picture>https://images.example.com/ultrabook14_8gb.jpg</picture>
+        <barcode>2000000000051</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Диагональ">14</param>
+        <param name="Процессор">Intel Core i5</param>
+        <param name="ОЗУ">8</param>
+        <param name="SSD">512</param>
+        <param name="ОС">Windows</param>
+        <weight>1250</weight>
+        <dimensions>318/210/16</dimensions>
+      </offer>
+
+      <offer id="ultrabook14_16gb" group_id="ultraBook14" available="true">
+        <name>UltraBook 14&quot; i5 16GB/512GB</name>
+        <vendor>Skyline</vendor>
+        <url>https://demo-electro.example.com/p/ultrabook-14</url>
+        <price>75990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>140</categoryId>
+        <picture>https://images.example.com/ultrabook14_16gb.jpg</picture>
+        <barcode>2000000000052</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Диагональ">14</param>
+        <param name="Процессор">Intel Core i5</param>
+        <param name="ОЗУ">16</param>
+        <param name="SSD">512</param>
+        <param name="ОС">Windows</param>
+        <weight>1250</weight>
+        <dimensions>318/210/16</dimensions>
+      </offer>
+
+      <!-- TV: product group 'vistaTV' with two sizes -->
+      <offer id="vistatv_50" group_id="vistaTV" available="true">
+        <name>Vista TV 50&quot; 4K HDR</name>
+        <vendor>Vista</vendor>
+        <url>https://demo-electro.example.com/p/vista-tv</url>
+        <price>39990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>150</categoryId>
+        <picture>https://images.example.com/vista_50.jpg</picture>
+        <barcode>2000000000061</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Диагональ">50</param>
+        <param name="Разрешение">3840x2160</param>
+        <param name="HDR">Да</param>
+        <param name="ОС ТВ">SmartTV</param>
+        <weight>10800</weight>
+        <dimensions>1120/260/710</dimensions>
+      </offer>
+
+      <offer id="vistatv_65" group_id="vistaTV" available="true">
+        <name>Vista TV 65&quot; 4K HDR</name>
+        <vendor>Vista</vendor>
+        <url>https://demo-electro.example.com/p/vista-tv</url>
+        <price>67990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>150</categoryId>
+        <picture>https://images.example.com/vista_65.jpg</picture>
+        <barcode>2000000000062</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Диагональ">65</param>
+        <param name="Разрешение">3840x2160</param>
+        <param name="HDR">Да</param>
+        <param name="ОС ТВ">SmartTV</param>
+        <weight>16500</weight>
+        <dimensions>1450/320/870</dimensions>
+      </offer>
+
+      <!-- Phone accessories: case for NeoPhone X -->
+      <offer id="case_neox_black" group_id="case_neox" available="true">
+        <name>Чехол NeoPhone X, силиконовый, черный</name>
+        <vendor>CaseLab</vendor>
+        <url>https://demo-electro.example.com/p/case-neox</url>
+        <price>1290</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>110</categoryId>
+        <picture>https://images.example.com/case_neox_black.jpg</picture>
+        <barcode>2000000000071</barcode>
+        <param name="Совместимость">NeoPhone X</param>
+        <param name="Материал">Силикон</param>
+        <param name="Цвет">Черный</param>
+        <weight>25</weight>
+      </offer>
+
+      <!-- Charging: GaN charger -->
+      <offer id="gan65w_white" group_id="gan65w" available="true">
+        <name>Зарядное устройство GaN 65W (USB-C)</name>
+        <vendor>PowerMax</vendor>
+        <url>https://demo-electro.example.com/p/gan-65w</url>
+        <price>2490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>160</categoryId>
+        <picture>https://images.example.com/gan65w_white.jpg</picture>
+        <barcode>2000000000081</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Мощность">65</param>
+        <param name="Порты">USB-C</param>
+        <param name="Технология">GaN</param>
+        <weight>120</weight>
+      </offer>
+
+      <!-- Power bank -->
+      <offer id="powerbank20k_black" group_id="powerbank20k" available="true">
+        <name>Внешний аккумулятор 20000 мА·ч</name>
+        <vendor>EnerGo</vendor>
+        <url>https://demo-electro.example.com/p/powerbank-20000</url>
+        <price>3490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>170</categoryId>
+        <picture>https://images.example.com/powerbank20k_black.jpg</picture>
+        <barcode>2000000000091</barcode>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <param name="Емкость">20000</param>
+        <param name="Порты">USB-A/USB-C</param>
+        <param name="Быстрая зарядка">Да</param>
+        <weight>420</weight>
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>
