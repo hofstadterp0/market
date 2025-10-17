@@ -7,15 +7,14 @@
 
     <!-- Категории создаются/обновляются из этого блока -->
     <categories>
-      <category id="1">Каталог</category>
-      <category id="100" parentId="1">Смартфоны</category>
-      <category id="110" parentId="100">Смартфоны — аксессуары</category>
-      <category id="120" parentId="1">Наушники</category>
-      <category id="130" parentId="1">Смарт‑часы</category>
-      <category id="140" parentId="1">Ноутбуки</category>
-      <category id="150" parentId="1">Телевизоры</category>
-      <category id="160" parentId="1">Зарядные устройства и кабели</category>
-      <category id="170" parentId="1">Энергия и питание</category>
+      <category id="100">Смартфоны</category>
+      <category id="110">Смартфоны — аксессуары</category>
+      <category id="120">Наушники</category>
+      <category id="130">Смарт‑часы</category>
+      <category id="140">Ноутбуки</category>
+      <category id="150">Телевизоры</category>
+      <category id="160">Зарядные устройства и кабели</category>
+      <category id="170">Энергия и питание</category>
     </categories>
 
     <offers>
