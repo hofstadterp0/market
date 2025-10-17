@@ -5,11 +5,6 @@
     <company>LLC Demo Electronics</company>
     <url>https://demo-electro.example.com</url>
 
-    <!-- Валюты (при необходимости, валюта должна быть добавлена в настройках Маркета) -->
-    <currencies>
-      <currency id="RUB" rate="1"/>
-    </currencies>
-
     <!-- Категории создаются/обновляются из этого блока -->
     <categories>
       <category id="1">Каталог</category>
@@ -41,11 +36,6 @@
         <delivery>true</delivery>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000001000</barcode>
-        <dimensions>146.5/71.2/7.8</dimensions>
-        <weight>165</weight>
-        <param name="Диагональ">6.1</param>
-        <param name="ОС">Android</param>
-        <param name="Камера">48MP</param>
       </offer>
 
       <offer id="auroras" available="true">
@@ -60,11 +50,6 @@
         <delivery>true</delivery>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000001001</barcode>
-        <dimensions>160.2/74.1/7.9</dimensions>
-        <weight>175</weight>
-        <param name="Диагональ">6.5</param>
-        <param name="ОС">Android</param>
-        <param name="Дисплей">90 Гц</param>
       </offer>
 
       <offer id="aeropods" available="true">
@@ -78,8 +63,6 @@
         <picture>https://images.example.com/aeropods_main.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000001002</barcode>
-        <param name="Тип">TWS</param>
-        <param name="Шумоподавление">Активное</param>
       </offer>
 
       <offer id="pulsepro" available="true">
@@ -93,8 +76,6 @@
         <picture>https://images.example.com/pulsepro_main.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000001003</barcode>
-        <param name="GPS">Да</param>
-        <param name="Материал корпуса">Алюминий</param>
       </offer>
 
       <offer id="ultrabook14" available="true">
@@ -108,9 +89,6 @@
         <picture>https://images.example.com/ultrabook14_main.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000001004</barcode>
-        <param name="Диагональ">14</param>
-        <param name="SSD">512</param>
-        <param name="Процессор">Intel Core i5</param>
       </offer>
 
       <offer id="vistatv" available="true">
@@ -124,9 +102,6 @@
         <picture>https://images.example.com/vistatv_main.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000001005</barcode>
-        <param name="Разрешение">3840x2160</param>
-        <param name="HDR">Да</param>
-        <param name="ОС ТВ">SmartTV</param>
       </offer>
 
       <offer id="case_neox" available="true">
@@ -139,8 +114,6 @@
         <categoryId>110</categoryId>
         <picture>https://images.example.com/case_neox_main.jpg</picture>
         <barcode>2000000001006</barcode>
-        <param name="Совместимость">NeoPhone X</param>
-        <param name="Материал">Силикон</param>
       </offer>
 
       <offer id="gan65w" available="true">
@@ -153,9 +126,6 @@
         <categoryId>160</categoryId>
         <picture>https://images.example.com/gan65w_main.jpg</picture>
         <barcode>2000000001007</barcode>
-        <param name="Мощность">65</param>
-        <param name="Порты">USB‑C</param>
-        <param name="Технология">GaN</param>
       </offer>
 
       <offer id="powerbank20k" available="true">
@@ -168,9 +138,6 @@
         <categoryId>170</categoryId>
         <picture>https://images.example.com/powerbank20k_main.jpg</picture>
         <barcode>2000000001008</barcode>
-        <param name="Емкость">20000</param>
-        <param name="Порты">USB‑A/USB‑C</param>
-        <param name="Быстрая зарядка">Да</param>
       </offer>
 
       <!-- =====================
@@ -190,13 +157,6 @@
         <delivery>true</delivery>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000011</barcode>
-        <dimensions>146.5/71.2/7.8</dimensions>
-        <weight>165</weight>
-        <param name="Цвет">Черный</param>
-        <param name="Память">128</param>
-        <param name="ОЗУ">6</param>
-        <param name="ОС">Android</param>
-        <param name="Диагональ">6.1</param>
       </offer>
 
       <offer id="neox_256_blue" group_id="neox" available="true">
@@ -208,15 +168,8 @@
         <currencyId>RUB</currencyId>
         <categoryId>100</categoryId>
         <picture>https://images.example.com/neox_256_blue.jpg</picture>
-        <manufacturer_warranty>true</manufacturer_warranty>
+        <categoryId>true</manufacturer_warranty>
         <barcode>2000000000012</barcode>
-        <dimensions>146.5/71.2/7.8</dimensions>
-        <weight>165</weight>
-        <param name="Цвет">Синий</param>
-        <param name="Память">256</param>
-        <param name="ОЗУ">8</param>
-        <param name="ОС">Android</param>
-        <param name="Диагональ">6.1</param>
       </offer>
 
       <!-- Aurora S variants -->
@@ -231,13 +184,6 @@
         <picture>https://images.example.com/auroras_128_white.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000021</barcode>
-        <dimensions>160.2/74.1/7.9</dimensions>
-        <weight>175</weight>
-        <param name="Цвет">Белый</param>
-        <param name="Память">128</param>
-        <param name="ОЗУ">6</param>
-        <param name="ОС">Android</param>
-        <param name="Диагональ">6.5</param>
       </offer>
 
       <offer id="auroras_256_green" group_id="auroras" available="false">
@@ -251,13 +197,6 @@
         <picture>https://images.example.com/auroras_256_green.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000022</barcode>
-        <dimensions>160.2/74.1/7.9</dimensions>
-        <weight>175</weight>
-        <param name="Цвет">Зеленый</param>
-        <param name="Память">256</param>
-        <param name="ОЗУ">8</param>
-        <param name="ОС">Android</param>
-        <param name="Диагональ">6.5</param>
       </offer>
 
       <!-- AeroPods variants -->
@@ -272,9 +211,6 @@
         <picture>https://images.example.com/aeropods_white.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000031</barcode>
-        <param name="Цвет">Белый</param>
-        <param name="Тип">TWS</param>
-        <param name="Шумоподавление">Активное</param>
       </offer>
 
       <offer id="aeropods_black" group_id="aeropods" available="true">
@@ -288,9 +224,6 @@
         <picture>https://images.example.com/aeropods_black.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000032</barcode>
-        <param name="Цвет">Черный</param>
-        <param name="Тип">TWS</param>
-        <param name="Шумоподавление">Активное</param>
       </offer>
 
       <!-- Pulse Pro variants -->
@@ -305,9 +238,6 @@
         <picture>https://images.example.com/pulsepro_41.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000041</barcode>
-        <param name="Размер">41</param>
-        <param name="Материал корпуса">Алюминий</param>
-        <param name="GPS">Да</param>
       </offer>
 
       <offer id="pulsepro_45" group_id="pulsepro" available="true">
@@ -321,9 +251,6 @@
         <picture>https://images.example.com/pulsepro_45.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000042</barcode>
-        <param name="Размер">45</param>
-        <param name="Материал корпуса">Алюминий</param>
-        <param name="GPS">Да</param>
       </offer>
 
       <!-- UltraBook 14 variants -->
@@ -338,11 +265,6 @@
         <picture>https://images.example.com/ultrabook14_8gb.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000051</barcode>
-        <param name="Диагональ">14</param>
-        <param name="Процессор">Intel Core i5</param>
-        <param name="ОЗУ">8</param>
-        <param name="SSD">512</param>
-        <param name="ОС">Windows</param>
       </offer>
 
       <offer id="ultrabook14_16gb" group_id="ultrabook14" available="true">
@@ -356,11 +278,6 @@
         <picture>https://images.example.com/ultrabook14_16gb.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000052</barcode>
-        <param name="Диагональ">14</param>
-        <param name="Процессор">Intel Core i5</param>
-        <param name="ОЗУ">16</param>
-        <param name="SSD">512</param>
-        <param name="ОС">Windows</param>
       </offer>
 
       <!-- Vista TV variants -->
@@ -375,10 +292,6 @@
         <picture>https://images.example.com/vista_50.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000061</barcode>
-        <param name="Диагональ">50</param>
-        <param name="Разрешение">3840x2160</param>
-        <param name="HDR">Да</param>
-        <param name="ОС ТВ">SmartTV</param>
       </offer>
 
       <offer id="vistatv_65" group_id="vistatv" available="true">
@@ -392,10 +305,6 @@
         <picture>https://images.example.com/vista_65.jpg</picture>
         <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000062</barcode>
-        <param name="Диагональ">65</param>
-        <param name="Разрешение">3840x2160</param>
-        <param name="HDR">Да</param>
-        <param name="ОС ТВ">SmartTV</param>
       </offer>
 
       <!-- Accessories variants (single-SKU groups also allowed) -->
@@ -409,9 +318,6 @@
         <categoryId>110</categoryId>
         <picture>https://images.example.com/case_neox_black.jpg</picture>
         <barcode>2000000000071</barcode>
-        <param name="Совместимость">NeoPhone X</param>
-        <param name="Материал">Силикон</param>
-        <param name="Цвет">Черный</param>
       </offer>
 
       <offer id="gan65w_white" group_id="gan65w" available="true">
@@ -424,9 +330,6 @@
         <categoryId>160</categoryId>
         <picture>https://images.example.com/gan65w_white.jpg</picture>
         <barcode>2000000000081</barcode>
-        <param name="Мощность">65</param>
-        <param name="Порты">USB‑C</param>
-        <param name="Технология">GaN</param>
       </offer>
 
       <offer id="powerbank20k_black" group_id="powerbank20k" available="true">
@@ -439,9 +342,6 @@
         <categoryId>170</categoryId>
         <picture>https://images.example.com/powerbank20k_black.jpg</picture>
         <barcode>2000000000091</barcode>
-        <param name="Емкость">20000</param>
-        <param name="Порты">USB‑A/USB‑C</param>
-        <param name="Быстрая зарядка">Да</param>
       </offer>
 
     </offers>
