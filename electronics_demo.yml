@@ -167,7 +167,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>100</categoryId>
         <picture>https://images.example.com/neox_256_blue.jpg</picture>
-        <categoryId>true</manufacturer_warranty>
+        <manufacturer_warranty>true</manufacturer_warranty>
         <barcode>2000000000012</barcode>
       </offer>
 
